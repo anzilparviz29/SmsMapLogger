@@ -1,0 +1,19 @@
+{
+  "name": "healthbot-container",
+  "version": "1.0.0",
+  "description": "A simple web page to handoff users to the Microsoft Health bot",
+  "main": "server.js",
+  "license": "MIT",
+  "repository": "https://github.com/Microsoft/HealthBotContainerSample.git",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.7"
+  },
+  "scripts": {
+    "prestart": "npm install"
+  },
+  "devDependencies": {}
+}
